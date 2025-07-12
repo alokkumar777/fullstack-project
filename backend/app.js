@@ -7,3 +7,7 @@ const getMsg = () => {
 btn.addEventListener("click", getMsg);
 
 // KEEP GOING!!!!
+
+function greet() {
+  console.log("Demo");
+}
