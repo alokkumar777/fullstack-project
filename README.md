@@ -2,4 +2,4 @@
     - Alisha Sheikh
     - Lakshay Saini 
     - Guddu Sharma
-    - Alok Kumar (Host)
+    - Alok Kumar (Admin)
