@@ -1,0 +1,80 @@
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+  color: #007bff !important;
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+/* Icon hover effects */
+.navbar .text-dark {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .text-dark:hover {
+  color: #007bff !important;
+  transform: scale(1.1);
+}
+
+/* Cart badge animation */
+.badge {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Brand hover effect */
+.navbar-brand {
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link::after {
+    height: 1px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.25rem 0;
+  }
+}
