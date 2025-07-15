@@ -21,9 +21,9 @@
     />
     <!-- Custome Css -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/product.css">
-    
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+
     <!-- <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -40,7 +40,7 @@
     </header>
     <main>
       <!-- Main content will go here -->
-       <span id="product"></span>
+      <span id="product"></span>
     </main>
     <footer>
       <!-- Footer content will go here -->
@@ -54,12 +54,10 @@
       .then((data) => {
         document.getElementById("navbar").innerHTML = data;
       });
-        fetch("./product.html")
-          .then((res) => res.text())
-          .then((data) => {
-            document.getElementById("product").innerHTML = data;
-          });
-      
+    fetch("./product.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.getElementById("product").innerHTML = data;
+      });
   </script>
-
 </html>
