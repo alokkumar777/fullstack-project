@@ -47,16 +47,27 @@
     </div>
     <!-- Right Icons -->
     <div class="d-flex align-items-center">
-      <a href="#" class="text-dark me-3 fs-5"><i class="fas fa-search"></i></a>
-      <a href="#" class="text-dark fs-5 position-relative">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <!-- <span
-          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-          style="font-size: 0.6rem"
-        >
-          2
-        </span> -->
-      </a>
+
+      <div class="nav-actions">
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search products...">
+            <button class="search-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="cart-container">
+            <button class="cart-btn" id="cart-btn">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17M17 13v4a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-4.01"></path>
+              </svg>
+              <span class="cart-count" id="cart-count">0</span>
+            </button>
+          </div>
+        </div>
     </div>
   </div>
 </nav>
