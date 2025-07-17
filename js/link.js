@@ -11,3 +11,8 @@ fetch("./product.html")
   .then((data) => {
     document.getElementById("product").innerHTML = data;
   });
+fetch("./hero.html")
+  .then((res) => res.text())
+  .then((data) => {
+    document.getElementById("hero").innerHTML = data;
+  });

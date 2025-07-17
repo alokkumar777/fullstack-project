@@ -14,11 +14,11 @@
 .navbar-nav .nav-link::after {
   content: "";
   position: absolute;
-  top: 55px;
+  top: 50px;
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px;
+  height: 4px;
   background-color: var(--primary-color);
   transition: width 0.3s ease;
 }
