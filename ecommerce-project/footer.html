@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fc07ea0abc.js"></script>
+  </head>
+  <body>
+    <footer>
+      <div class="over">
+        <div class="col">
+          <p>
+            Join our community and get 5% off. Get exclusive discounts, new
+            products, and sales.
+          </p>
+          <form>
+          <input type="email" placeholder="Your Email Here" class="underline-only" />
+          <button type="submit"><i class="fa-solid fa-arrow-right"></i></button> 
+      </form> </br>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+    </div>
+        <div class="col1">
+          <h3>About</h3>
+          <p>About Us</p> <h1> </h1>
+          <p>Contact Us</p>
+          <p>About Rossmax</p>
+          <p>Bulk Purchase</p>
+          <p>Reviews</p>
+          <p>Blog</p>
+          <p>Careers</p>
+        </div>
+        <div class="col2">
+          <h3>Help</h3>
+          <ul>
+            <li>FAQs</li>
+            <li>Shipping Rates</li>
+            <li>Repair & Support</li>
+          </ul>
+        </div>
+        <div class="col3">
+          <h3>Terms</h3>
+          <ul>
+            <li>Warranty Terms</li>
+            <li>Exchange Policy</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+
+      </div>
+     
+      <hr> 
+      <p> © 2025 Bion SG</p>
+    </footer>
+  </body>
+  <style>
+        body{
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          background-color: #eef8ee;
+        }
+        footer{
+            width:100%;
+            height:fit-content;
+            background-color:rgb(56, 54, 54);
+            color:#fff;
+            position: absolute ;
+            bottom:0;
+            padding: 100px 0 30px;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: left;
+
+        }
+        .over{
+            width:85%;
+            margin:auto;
+            display:flex;
+            flex-wrap :wrap;
+            align-items:flex-start;
+            justify-content: space-between;
+
+        }
+        p{
+            text-align:justify
+        }
+        .col{
+             flex-basis:25%;
+             padding:10px;
+        }
+        .col:nth-child(2), .col:nth-child(3) {
+          flex-basis: 15%;
+        }
+        .col1{
+            width:fit-content;
+            margin-bottom: 40px;
+            position: relative;
+            justify-items:start;
+         }
+         h3{
+            color: rgb(136, 132, 132);
+            text-align: center;
+         }
+         ul li{
+            list-style: none;
+            margin-bottom: 13px;
+            text-align:justify;
+         }
+        .underline-only {
+        border: none;
+        border-bottom: 2px solid black;
+        background: transparent;
+        outline: none;
+        padding: 8px 0;
+        font-size: 16px;
+        box-shadow: none;
+        width: 100%;
+        }
+
+    .underline-only:focus {
+      border-bottom-color: rgb(136, 132, 132) ;
+    }
+    form{
+      
+      color: #fff;
+      padding-bottom: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0px;
+    }
+    form .far{
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    form button{
+      background: transparent;
+      border:0;
+      outline:none;
+      cursor:pointer;
+    }
+    form button .fas{
+      font-size: 16px;
+      color:#ccc
+    }
+    .social-icons .fab{
+
+      width:40px;
+      height:40px;
+      border-radius:50%;
+      text-align:center;
+      line-height: 40px;
+      font-size: 20px;
+      color:#000;
+      background: #ccc;
+      margin-right: 15px;
+      cursor:pointer;
+      text-align:justify;
+    }
+    .social-icons{
+      color:rgb(136, 132, 132);
+      justify-content: space-between;
+      font-size:x-large;
+    }
+  </style>
+</html>
