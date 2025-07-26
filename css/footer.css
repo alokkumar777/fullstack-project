@@ -1,0 +1,122 @@
+footer {
+  width: 100%;
+  padding: 0;
+  background-color: rgb(56, 54, 54);
+  color: #fff;
+  /* position: absolute; */
+  /* bottom: 0; */
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 18x;
+  text-align: left;
+}
+.over {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+p {
+  text-align: justify;
+}
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col:nth-child(2),
+.col:nth-child(3) {
+  flex-basis: 15%;
+}
+.col1 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  justify-items: start;
+}
+h3 {
+  color: rgb(136, 132, 132);
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 13px;
+  text-align: justify;
+}
+.underline-only {
+  border: none;
+  border-bottom: 1px solid rgb(67, 65, 65);
+  background: transparent;
+  outline: none;
+  padding: 8px 0;
+  font-size: 16px;
+  box-shadow: none;
+  width: 100%;
+}
+
+.underline-only:focus {
+  border-bottom-color: rgb(45, 44, 44);
+}
+form {
+  color: #fff;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+form .far {
+  font-size: 18px;
+  margin-right: 10px;
+}
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: rgb(136, 132, 132);
+}
+form button .fas {
+  font-size: 16px;
+  color: #ccc;
+}
+.social-icons .fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #ccc;
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: justify;
+}
+.social-icons {
+  color: rgb(136, 132, 132);
+  justify-content: space-between;
+  font-size: x-large;
+}
+.bion {
+  color: rgb(136, 132, 132);
+  border-top: 1px solid rgb(86, 83, 83);
+  color: rgb(136, 132, 132);
+  justify-content: space-between;
+  font-size: x-large;
+  text-align: center;
+}
+.bion .fa {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #ccc;
+  margin-left: 35%;
+  cursor: pointer;
+  text-align: justify;
+}
